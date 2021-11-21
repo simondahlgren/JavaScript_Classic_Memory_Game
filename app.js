@@ -60,12 +60,39 @@ function createBoard() {
      let card = document.createElement('img')
      card.setAttribute('src', 'Images/blank.jpg')
      card.setAttribute('data-id', i)
-     //card.removeEventListener('click', flipcard)
+     card.removeEventListener('click', flipCard)
      grid.appendChild(card)
  }
 
 }
+
+function flipCard() {
+let cardId = this.getAttribute('data-id')
+
+
+}
+
+
+
 createBoard()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 )
